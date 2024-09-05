@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Karla", sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+main{
+    height: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+}
+
+section.container-principal{
+    width: 100%;
+    padding: 90px 30px;
+    background-image: url("../images/xinyi-w-qjCHPZbeXCQ-unsplash.png");
+    background-size: cover;
+    background-position: bottom center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1{
+    color: #f1f1f1;
+    font-size: 3rem;
+}
+
+main p{
+    text-align: center;
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f1f1f1;
+    margin-top: 10px;
+}
+/* #de677f */
+main button{
+    padding: 10px 20px;
+    border: 2px solid #f1f1f1;
+    border-radius: 12px;
+    color: #f1f1f1;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 30px;
+    background: transparent;
+    cursor: pointer;
+    transition: .5s;
+}
+
+main button:hover{
+    padding: 10px 20px;
+    border: 2px solid #f1f1f1;
+    border-radius: 12px;
+    color: #f1f1f1;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 30px;
+    background: transparent;
+    transform: scale(1.2);
+}
+
+#mostrarfrase{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 30px;
+}
+
+.frase{
+    padding: 20px;
+    text-align: center;
+    color: #de677f;
+    font-size: 19px;
+    border: 1px solid #de677f;
+    border-radius: 20px;
+}
+@media screen and (max-width: 768px){
+    section.container-principal{
+        background-size: 1000px 900px;
+        background-position: left center;
+    }
+
+    main p{
+        text-align: center;
+        max-width: 700px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    main button{
+        padding: 10px 20px;
+        border: 2px solid #f1f1f1;
+        border-radius: 12px;
+        color: #f1f1f1;
+        font-weight: 500;
+        font-size: 16px;
+        margin-top: 30px;
+        background: transparent;
+        cursor: pointer;
+        transition: .5s;
+    }
+}
